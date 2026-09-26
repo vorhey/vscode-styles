@@ -1,0 +1,100 @@
+.markdown-body pre,
+.markdown-body pre code,
+pre.shiki,
+pre.shiki code,
+.vscode-body pre,
+.vscode-body pre code {
+  font-size: 11px !important;
+  line-height: 1.4 !important;
+}
+
+.markdown-body table,
+.vscode-body table {
+  border-collapse: collapse;
+}
+.markdown-body table th,
+.markdown-body table td,
+.vscode-body table th,
+.vscode-body table td {
+  border: 1px solid #555 !important;
+  padding: 6px 13px;
+}
+
+.hljs {
+  color: #f0f0f0 !important;
+  background: transparent !important;
+}
+.hljs-comment,
+.hljs-quote {
+  color: #8b8b8b !important;
+  font-style: italic;
+}
+.hljs-string,
+.hljs-regexp,
+.hljs-template-variable,
+.hljs-addition {
+  color: #ccb7a0 !important;
+}
+.hljs-number,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet {
+  color: #0afafa !important;
+}
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-meta .hljs-keyword {
+  color: #7f83ff !important;
+  font-style: italic;
+}
+.hljs-operator,
+.hljs-punctuation {
+  color: #7f83ff !important;
+  font-style: normal;
+}
+.hljs-title.function_,
+.hljs-function .hljs-title,
+.hljs-section {
+  color: #d3bcff !important;
+}
+.hljs-title.class_,
+.hljs-type,
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #c191ff !important;
+}
+.hljs-title {
+  color: #d3bcff !important;
+}
+.hljs-variable,
+.hljs-attr,
+.hljs-property,
+.hljs-subst {
+  color: #f0f0f0 !important;
+}
+.hljs-params {
+  color: #45b8ff !important;
+  font-style: italic;
+}
+.hljs-tag,
+.hljs-name {
+  color: #7f83ff !important;
+}
+.hljs-attribute,
+.hljs-selector-class,
+.hljs-selector-id {
+  color: #ff4a98 !important;
+}
+.hljs-meta {
+  color: #45b8ff !important;
+}
+.hljs-deletion {
+  color: #f44747 !important;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
